@@ -1,0 +1,42 @@
+.filter-wrapper {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    margin-top: 20px !important;
+  }
+
+.filter-selector {
+  width: 114px;
+  margin-right: 12px;
+  font-size: 16px;
+  padding: 5px 0;
+  background: #fff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input.filter-selector{
+  padding: 5px;
+}
+
+.filter-wrapper .filter-wrapper {
+  padding: 0;
+  margin-bottom: 25px;
+}
+.filter-group-wrapper {
+  padding: 16px;
+  background-color: #fff;
+}
+
+.filter-group-wrapper .button-container button {
+  background-color: #fff;
+}
+
+.filter-wrapper .filter-selector {
+  align-self: baseline;
+}
+
